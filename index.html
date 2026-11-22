@@ -1,0 +1,1156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Birthday, Nick!</title>
+<meta name="description" content="A birthday card from Dad. Tap to open.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Happy Birthday, Nick!">
+<meta property="og:description" content="A birthday card from Dad. Tap to open.">
+<meta property="og:url" content="https://wellerman2026.github.io/happy-birthday-nick/">
+<meta property="og:image" content="https://wellerman2026.github.io/happy-birthday-nick/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A green highway sign that reads Happy Birthday, Nicholas">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230E6A44'/%3E%3Ccircle cx='32' cy='32' r='25' fill='none' stroke='white' stroke-width='3'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='800' font-size='28' fill='white' text-anchor='middle'%3E19%3C/text%3E%3C/svg%3E">
+<style>:root{color-scheme:light} body{margin:0} img{max-width:100%} [hidden]{display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Overpass:wght@400;600;700;800&display=swap">
+<style>
+/* Layout: a roadside guide sign opens the card, a car cruises the road below it, Dad's folded notes wait to be opened, then his letter, then a cake to make a wish on. */
+:root {
+  --bg: #EDF1EC;
+  --surface: #FAFBF8;
+  --ink: #15211B;
+  --muted: #56665C;
+  --line: #CDD7CF;
+  --label: #0E6A44;
+  --sign: #0E6A44;
+  --sign-deep: #0A5435;
+  --sign-ink: #FFFFFF;
+  --gold: #E2A11B;
+  --asphalt: #2E3430;
+  --road-edge: #E4EAE6;
+  --post: #8F9993;
+  --paper: #FFFFFF;
+  --paper-shade: #F1F4F0;
+  --paper-ink: #1B2A22;
+  --paper-muted: #5D6B63;
+  --fold: rgba(21, 33, 27, .12);
+  --tape: rgba(226, 161, 27, .42);
+  --tape-green: rgba(14, 106, 68, .32);
+  --shadow: 0 1px 2px rgba(21, 33, 27, .08), 0 8px 24px rgba(21, 33, 27, .10);
+  --car: #D4503A;
+  --car-deep: #A83A28;
+  --window: #CFE3EE;
+  --tire: #1A1D1B;
+  --hub: #C9CFCB;
+  --smoke: rgba(120, 132, 126, .45);
+  --cake: #6E4029;
+  --frosting: #FFFFFF;
+  --candle: #2F8F63;
+  --candle-deep: #1F6646;
+  --plate: #D3DCD5;
+  --flame-core: #FFF8DC;
+  --flame: #FFC93C;
+  --flame-edge: #F28B2B;
+  --confetti-3: #9FD8B8;
+  --confetti-4: #15211B;
+  --font-sign: "Overpass", "Helvetica Neue", Arial, sans-serif;
+  --font-letter: "Literata", Georgia, "Times New Roman", serif;
+  --font-hand: "Kalam", "Segoe Print", "Bradley Hand", cursive;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D1511;
+    --surface: #16211B;
+    --ink: #E6EDE8;
+    --muted: #9AABA1;
+    --line: #263429;
+    --label: #63C493;
+    --sign: #11784D;
+    --sign-deep: #0C5E3C;
+    --gold: #F0B43A;
+    --asphalt: #1E2421;
+    --road-edge: #C9D2CC;
+    --post: #5B6660;
+    --paper: #E8EDE6;
+    --paper-shade: #DCE3DB;
+    --paper-ink: #17241D;
+    --tape: rgba(240, 180, 58, .55);
+    --tape-green: rgba(17, 120, 77, .6);
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .45);
+    --car: #E2654D;
+    --car-deep: #B84A35;
+    --window: #A9C4D2;
+    --smoke: rgba(210, 220, 214, .45);
+    --cake: #7A4A2E;
+    --frosting: #F3EFE8;
+    --candle: #3DA574;
+    --candle-deep: #23704C;
+    --plate: #2B3A31;
+    --confetti-3: #CFEFDC;
+    --confetti-4: #FFFFFF;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0D1511;
+  --surface: #16211B;
+  --ink: #E6EDE8;
+  --muted: #9AABA1;
+  --line: #263429;
+  --label: #63C493;
+  --sign: #11784D;
+  --sign-deep: #0C5E3C;
+  --gold: #F0B43A;
+  --asphalt: #1E2421;
+  --road-edge: #C9D2CC;
+  --post: #5B6660;
+  --paper: #E8EDE6;
+  --paper-shade: #DCE3DB;
+  --paper-ink: #17241D;
+  --tape: rgba(240, 180, 58, .55);
+  --tape-green: rgba(17, 120, 77, .6);
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .45);
+  --car: #E2654D;
+  --car-deep: #B84A35;
+  --window: #A9C4D2;
+  --smoke: rgba(210, 220, 214, .45);
+  --cake: #7A4A2E;
+  --frosting: #F3EFE8;
+  --candle: #3DA574;
+  --candle-deep: #23704C;
+  --plate: #2B3A31;
+  --confetti-3: #CFEFDC;
+  --confetti-4: #FFFFFF;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-letter);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+button { -webkit-tap-highlight-color: transparent; }
+
+.wrap {
+  max-width: 1040px;
+  margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+.eyebrow {
+  font-family: var(--font-sign);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--label);
+  margin: 0;
+}
+
+/* ---------- Hero: the guide sign ---------- */
+.hero-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding-block: 44px 0;
+}
+.sign-group {
+  position: relative;
+  width: min(100%, 620px);
+  margin-top: 44px;
+}
+.tab {
+  position: absolute;
+  bottom: calc(100% - 3px);
+  right: clamp(18px, 5vw, 32px);
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  background: var(--sign);
+  color: var(--sign-ink);
+  font-family: var(--font-sign);
+  font-weight: 800;
+  letter-spacing: .08em;
+  padding: 10px 18px 7px;
+  border-radius: 9px 9px 0 0;
+  box-shadow: inset 0 0 0 4px var(--sign), inset 0 0 0 7px var(--sign-ink);
+  line-height: 1;
+}
+.tab span { font-size: 15px; }
+.tab strong { font-size: 24px; letter-spacing: .02em; }
+.sign {
+  position: relative;
+  overflow: hidden;
+  background: var(--sign);
+  color: var(--sign-ink);
+  border-radius: 18px;
+  padding: clamp(30px, 6vw, 48px) clamp(26px, 6vw, 56px) clamp(26px, 5vw, 40px);
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.sign::before {
+  content: "";
+  position: absolute;
+  inset: 9px;
+  border: 3px solid var(--sign-ink);
+  border-radius: 11px;
+  pointer-events: none;
+}
+.sign::after {
+  content: "";
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -60%;
+  width: 38%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, .26), transparent);
+  transform: skewX(-12deg);
+  pointer-events: none;
+}
+.sign.shine::after { animation: sheen 1.6s ease .4s both; }
+@keyframes sheen { from { left: -60%; } to { left: 130%; } }
+
+.sign-small {
+  font-family: var(--font-sign);
+  font-weight: 600;
+  font-size: clamp(20px, 4vw, 28px);
+  margin: 0;
+}
+.sign-name {
+  font-family: var(--font-sign);
+  font-weight: 800;
+  font-size: clamp(50px, 12vw, 96px);
+  line-height: .95;
+  letter-spacing: -.01em;
+  margin: 8px 0 22px;
+}
+.sign-rule {
+  height: 3px;
+  background: var(--sign-ink);
+  margin: 0 calc(-1 * clamp(26px, 6vw, 56px) + 12px) 18px;
+}
+.sign-direction {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-sign);
+  font-weight: 700;
+  font-size: clamp(16px, 3.4vw, 22px);
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.sign-direction svg { flex: none; width: 22px; height: 30px; }
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 24%;
+}
+.posts span {
+  width: 14px;
+  height: 56px;
+  background: var(--post);
+}
+
+/* ---------- The road and the car ---------- */
+.road-wrap { position: relative; }
+.road {
+  position: relative;
+  height: 64px;
+  background: var(--asphalt);
+  border-top: 3px solid var(--road-edge);
+  border-bottom: 3px solid var(--road-edge);
+  overflow: hidden;
+}
+.road-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 4px;
+  transform: translateY(-50%);
+  background: repeating-linear-gradient(90deg, var(--gold) 0 38px, transparent 38px 76px);
+  animation: drive 2.6s linear infinite;
+}
+@keyframes drive { to { background-position: -76px 0; } }
+
+.car {
+  position: absolute;
+  z-index: 2;
+  bottom: 8px;
+  left: calc(50% - 52px);
+  width: 104px;
+  height: 47px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  animation: drive-in 2.4s cubic-bezier(.18, .7, .28, 1) .9s both;
+}
+@keyframes drive-in {
+  from { transform: translateX(calc(-50vw - 140px)); }
+  to { transform: none; }
+}
+.car:focus-visible { outline: 3px solid var(--gold); outline-offset: 5px; border-radius: 8px; }
+.car-body {
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: bob .32s ease-in-out infinite alternate;
+}
+.car-body svg { display: block; width: 100%; height: 100%; overflow: visible; }
+@keyframes bob { to { transform: translateY(-1.5px); } }
+.car-body.hop { animation: hop .5s ease; }
+@keyframes hop {
+  0% { transform: none; }
+  30% { transform: translateY(-10px) rotate(-4deg); }
+  60% { transform: translateY(0) rotate(1.5deg); }
+  100% { transform: none; }
+}
+.c-body { fill: var(--car); }
+.c-win { fill: var(--window); }
+.c-trim { fill: none; stroke: var(--car-deep); stroke-width: 1.5; stroke-linecap: round; }
+.c-light { fill: var(--flame-core); }
+.c-tail { fill: var(--gold); }
+.c-tire { fill: var(--tire); }
+.c-hub { fill: var(--hub); }
+.c-spoke { fill: none; stroke: var(--hub); stroke-width: 1.6; }
+.wheel {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: spin .5s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.puff {
+  position: absolute;
+  left: -4px;
+  bottom: 9px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--smoke);
+  opacity: 0;
+  animation: puff 1.3s ease-out infinite;
+}
+.puff.p2 { animation-delay: .45s; }
+.puff.p3 { animation-delay: .9s; }
+@keyframes puff {
+  0% { transform: translate(0, 0) scale(.4); opacity: .8; }
+  100% { transform: translate(-36px, -12px) scale(1.7); opacity: 0; }
+}
+
+.bubble {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) scale(.6);
+  transform-origin: 50% 100%;
+  opacity: 0;
+  font-family: var(--font-sign);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: .05em;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--ink);
+  background: var(--surface);
+  padding: 8px 12px 6px;
+  border-radius: 9px;
+  box-shadow: var(--shadow);
+  pointer-events: none;
+  transition: opacity .15s ease, transform .2s ease;
+}
+.bubble::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border: 6px solid transparent;
+  border-top-color: var(--surface);
+}
+.car.talking .bubble { opacity: 1; transform: translateX(-50%) scale(1); }
+
+.car-hint {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-hand);
+  font-size: 17px;
+  line-height: 1.2;
+  color: var(--muted);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity .4s ease;
+  pointer-events: none;
+}
+.car-hint.show { opacity: 1; }
+
+.tagline {
+  font-family: var(--font-letter);
+  font-style: italic;
+  font-size: clamp(20px, 3.4vw, 26px);
+  line-height: 1.4;
+  color: var(--muted);
+  text-align: center;
+  text-wrap: balance;
+  margin: 0;
+  padding-block: 48px 0;
+}
+
+/* ---------- Notes ---------- */
+.notes-section { padding-block: 56px 80px; }
+.section-head { text-align: center; margin-bottom: 48px; }
+h2 {
+  font-family: var(--font-sign);
+  font-weight: 800;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1.1;
+  letter-spacing: -.01em;
+  text-wrap: balance;
+  margin: 8px 0 0;
+}
+.notes-hint {
+  font-family: var(--font-sign);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--muted);
+  margin: 12px 0 0;
+}
+.notes-hint strong { color: var(--label); font-weight: 800; }
+.notes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px 26px;
+}
+.note {
+  position: relative;
+  display: grid;
+  min-width: 0;
+  perspective: 1000px;
+  transform: rotate(var(--tilt, 0deg));
+  transition: transform .25s ease;
+}
+.note:nth-child(1) { --tilt: -1.6deg; }
+.note:nth-child(2) { --tilt: 1.2deg; }
+.note:nth-child(3) { --tilt: -.6deg; }
+.note:nth-child(4) { --tilt: 1.4deg; }
+.note:nth-child(5) { --tilt: -1.1deg; }
+.note:nth-child(6) { --tilt: .9deg; }
+.note:hover { transform: rotate(0deg) translateY(-4px); }
+.note-card {
+  display: grid;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform .75s cubic-bezier(.3, .7, .3, 1);
+}
+.note.open .note-card { transform: rotateY(180deg); cursor: default; }
+.note-card:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; border-radius: 4px; }
+.face {
+  grid-area: 1 / 1;
+  position: relative;
+  display: flex;
+  min-height: 150px;
+  padding: 36px 26px 28px;
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--paper-ink);
+  box-shadow: var(--shadow);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.face::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  width: 96px;
+  height: 26px;
+  background: var(--tape);
+  transform: translateX(-50%) rotate(-3deg);
+}
+.face-front {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-block: 28px 22px;
+  background:
+    linear-gradient(to bottom, transparent calc(50% - 1px), var(--fold) calc(50% - 1px), var(--fold) calc(50% + 1px), transparent calc(50% + 1px)),
+    linear-gradient(to bottom, var(--paper) 50%, var(--paper-shade) 50%);
+}
+.seal {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--sign);
+  color: var(--sign-ink);
+  font-family: var(--font-sign);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1;
+  padding-top: 3px;
+  box-shadow: inset 0 0 0 4px var(--sign), inset 0 0 0 6px var(--sign-ink), 0 2px 6px rgba(21, 33, 27, .25);
+}
+.open-me {
+  font-family: var(--font-hand);
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--paper-muted);
+}
+.face-back {
+  transform: rotateY(180deg);
+  align-items: center;
+  font-family: var(--font-hand);
+  font-size: 21px;
+  line-height: 1.4;
+}
+.note-last .face-back::before { background: var(--tape-green); }
+.note-last .face-back { font-weight: 700; }
+
+/* ---------- Letter ---------- */
+.letter-section { padding-block: 0 80px; }
+.letter {
+  max-width: 680px;
+  margin-inline: auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: clamp(28px, 5vw, 56px);
+  box-shadow: var(--shadow);
+}
+.letter .eyebrow { margin-bottom: 22px; }
+.letter-body p {
+  font-size: 18px;
+  line-height: 1.75;
+  margin: 0 0 1em;
+}
+.letter-body .greeting {
+  font-family: var(--font-hand);
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--label);
+  margin-bottom: .6em;
+}
+.signature {
+  font-family: var(--font-hand);
+  font-size: 34px;
+  line-height: 1.2;
+  color: var(--label);
+  margin: 26px 0 0;
+}
+
+/* ---------- Finale: the cake ---------- */
+.finale { padding-block: 8px 88px; }
+.finale-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+.finale-line {
+  font-family: var(--font-sign);
+  font-weight: 800;
+  font-size: clamp(30px, 6vw, 48px);
+  line-height: 1.1;
+  text-wrap: balance;
+  margin: 0;
+}
+.finale-sub {
+  font-family: var(--font-letter);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--muted);
+  margin: 0;
+}
+.cake-scene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 0 14px;
+  padding-top: 64px;
+}
+.candles {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 10px;
+  margin-bottom: -27px;
+}
+.candle {
+  position: relative;
+  display: inline-block;
+  font-family: var(--font-sign);
+  font-weight: 800;
+  font-size: 104px;
+  line-height: 1;
+  color: var(--candle);
+  text-shadow: 4px 4px 0 var(--candle-deep);
+}
+.wick {
+  position: absolute;
+  left: 50%;
+  top: calc(.15em - 13px);
+  width: 3px;
+  height: 14px;
+  margin-left: -1.5px;
+  background: var(--ink);
+  border-radius: 2px;
+}
+.flame {
+  position: absolute;
+  left: 50%;
+  top: calc(.15em - 46px);
+  width: 20px;
+  height: 34px;
+  margin-left: -10px;
+  border-radius: 50% 50% 45% 45% / 62% 62% 38% 38%;
+  background: radial-gradient(circle at 50% 72%, var(--flame-core) 0 22%, var(--flame) 48%, var(--flame-edge) 85%);
+  box-shadow: 0 0 18px 6px rgba(255, 190, 60, .45);
+  transform-origin: 50% 90%;
+  animation: flicker .16s ease-in-out infinite alternate;
+  transition: transform .35s ease, opacity .35s ease;
+}
+.candle:nth-child(2) .flame { animation-duration: .21s; }
+@keyframes flicker {
+  from { transform: scale(1, 1) rotate(-2.5deg); }
+  to { transform: scale(.93, 1.07) rotate(2.5deg); }
+}
+.out .flame { animation: none; transform: scale(0); opacity: 0; }
+.smoke {
+  position: absolute;
+  left: 50%;
+  top: calc(.15em - 22px);
+  width: 9px;
+  height: 9px;
+  margin-left: -4.5px;
+  border-radius: 50%;
+  background: var(--smoke);
+  opacity: 0;
+}
+.smoke.s1 { --dx: -8px; }
+.smoke.s2 { --dx: 10px; }
+.smoke.s3 { --dx: -2px; }
+.out .smoke { animation: smoke-rise 1.9s ease-out forwards; }
+.out .smoke.s2 { animation-delay: .2s; }
+.out .smoke.s3 { animation-delay: .4s; }
+@keyframes smoke-rise {
+  0% { opacity: .75; transform: translate(0, 0) scale(.6); }
+  100% { opacity: 0; transform: translate(var(--dx), -80px) scale(2.6); }
+}
+.cake {
+  position: relative;
+  width: min(300px, 78vw);
+  height: 86px;
+  border-radius: 12px 12px 8px 8px;
+  background: var(--cake);
+}
+.cake::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 34px;
+  border-radius: 12px 12px 0 0;
+  background:
+    radial-gradient(circle at 50% 0, var(--frosting) 9px, transparent 9.5px) 0 14px / 26px 16px repeat-x,
+    linear-gradient(var(--frosting), var(--frosting)) 0 0 / 100% 18px no-repeat;
+}
+.cake::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 28px;
+  width: 7px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--gold);
+  box-shadow: 38px 14px 0 var(--confetti-3), 76px -3px 0 var(--car), 118px 15px 0 var(--gold), 156px 1px 0 var(--confetti-3), 196px 13px 0 var(--car), 228px -2px 0 var(--gold);
+}
+.plate {
+  width: min(344px, 88vw);
+  height: 14px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: var(--plate);
+}
+
+.sign-button {
+  font-family: var(--font-sign);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: .04em;
+  color: var(--sign-ink);
+  background: var(--sign);
+  border: 0;
+  border-radius: 10px;
+  padding: 16px 32px 13px;
+  box-shadow: inset 0 0 0 4px var(--sign), inset 0 0 0 6px var(--sign-ink), var(--shadow);
+  cursor: pointer;
+  transition: background .2s ease, transform .2s ease;
+}
+.sign-button:hover { background: var(--sign-deep); box-shadow: inset 0 0 0 4px var(--sign-deep), inset 0 0 0 6px var(--sign-ink), var(--shadow); }
+.sign-button:active { transform: translateY(1px); }
+.sign-button:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.wish-note {
+  min-height: 1.6em;
+  font-family: var(--font-hand);
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--label);
+  margin: 6px 0 0;
+}
+
+#confetti {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 20;
+}
+
+@media (max-width: 860px) {
+  .notes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .notes { grid-template-columns: minmax(0, 1fr); gap: 30px; }
+  .posts { padding-inline: 20%; }
+  .sign-direction svg { width: 18px; height: 25px; }
+  .candle { font-size: 92px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .road-line, .sign.shine::after, .car, .car-body, .wheel, .flame { animation: none; }
+  .puff { display: none; }
+  .note, .note-card, .sign-button { transition: none; }
+  .out .smoke { animation: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <p class="eyebrow">A birthday card from Dad</p>
+    <div class="sign-group">
+      <div class="tab" aria-hidden="true"><span>MILE</span><strong>19</strong></div>
+      <div class="sign shine" id="sign">
+        <p class="sign-small">Happy Birthday,</p>
+        <h1 class="sign-name">Nicholas</h1>
+        <div class="sign-rule" aria-hidden="true"></div>
+        <p class="sign-direction">
+          <svg viewBox="0 0 24 32" aria-hidden="true"><polygon points="12,0 24,13 16,13 16,32 8,32 8,13 0,13" fill="currentColor"/></svg>
+          The road ahead is yours
+        </p>
+      </div>
+      <div class="posts" aria-hidden="true"><span></span><span></span></div>
+    </div>
+  </div>
+  <div class="road-wrap">
+    <div class="road" aria-hidden="true"><div class="road-line"></div></div>
+    <button type="button" class="car" id="car" aria-label="Honk the car horn">
+      <span class="bubble" id="bubble" aria-hidden="true">Happy birthday!</span>
+      <span class="puff p1" aria-hidden="true"></span>
+      <span class="puff p2" aria-hidden="true"></span>
+      <span class="puff p3" aria-hidden="true"></span>
+      <span class="car-body" id="car-body">
+        <svg viewBox="0 0 120 54" aria-hidden="true">
+          <path class="c-body" d="M10 44 Q4 44 4 38 L4 31 Q4 25 12 24 L28 22 L40 10 Q43 7 47 7 L80 7 Q84 7 87 10 L98 22 L108 24 Q116 25.5 116 32 L116 38 Q116 44 110 44 Z"/>
+          <path class="c-win" d="M33 22 L43 12 Q44.5 11 46 11 L60 11 L60 22 Z"/>
+          <path class="c-win" d="M64 22 L64 11 L79 11 Q81.5 11 83 13 L92 22 Z"/>
+          <path class="c-trim" d="M62 25 L62 40 M44 30 L50 30 M70 30 L76 30"/>
+          <rect class="c-light" x="110" y="27" width="6" height="4" rx="1.5"/>
+          <rect class="c-tail" x="4" y="27" width="4" height="4" rx="1"/>
+          <g class="wheel"><circle class="c-tire" cx="30" cy="44" r="10"/><circle class="c-hub" cx="30" cy="44" r="4.5"/><path class="c-spoke" d="M30 36.5 L30 51.5 M22.5 44 L37.5 44"/></g>
+          <g class="wheel"><circle class="c-tire" cx="92" cy="44" r="10"/><circle class="c-hub" cx="92" cy="44" r="4.5"/><path class="c-spoke" d="M92 36.5 L92 51.5 M84.5 44 L99.5 44"/></g>
+        </svg>
+      </span>
+    </button>
+    <span class="car-hint" id="car-hint" aria-hidden="true">tap the car</span>
+  </div>
+  <div class="wrap">
+    <p class="tagline">Nineteen years down, and the best miles are still ahead.</p>
+  </div>
+</header>
+
+<main>
+  <section class="notes-section" aria-labelledby="notes-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">From Dad</p>
+        <h2 id="notes-title">Notes for the road ahead</h2>
+        <p class="notes-hint">Tap each note to open it. <strong id="notes-count" aria-live="polite">0 of 6 opened</strong></p>
+      </div>
+      <ul class="notes">
+        <li class="note"><button type="button" class="note-card" aria-expanded="false" aria-label="Open note 1">
+          <span class="face face-front"><span class="seal">19</span><span class="open-me">Tap to open</span></span>
+          <span class="face face-back">Keep showing up. Talent opens doors, but showing up every day is what keeps them open.</span>
+        </button></li>
+        <li class="note"><button type="button" class="note-card" aria-expanded="false" aria-label="Open note 2">
+          <span class="face face-front"><span class="seal">19</span><span class="open-me">Tap to open</span></span>
+          <span class="face face-back">Your word is worth more than anything you own. Keep it, even when it costs you.</span>
+        </button></li>
+        <li class="note"><button type="button" class="note-card" aria-expanded="false" aria-label="Open note 3">
+          <span class="face face-front"><span class="seal">19</span><span class="open-me">Tap to open</span></span>
+          <span class="face face-back">You don't need it all figured out at 19. Pick the next right step and take it.</span>
+        </button></li>
+        <li class="note"><button type="button" class="note-card" aria-expanded="false" aria-label="Open note 4">
+          <span class="face face-front"><span class="seal">19</span><span class="open-me">Tap to open</span></span>
+          <span class="face face-back">Mistakes are tuition. Learn the lesson the first time and you won't pay for it twice.</span>
+        </button></li>
+        <li class="note"><button type="button" class="note-card" aria-expanded="false" aria-label="Open note 5">
+          <span class="face face-front"><span class="seal">19</span><span class="open-me">Tap to open</span></span>
+          <span class="face face-back">Be the one people can count on. That will take you further than any résumé.</span>
+        </button></li>
+        <li class="note note-last"><button type="button" class="note-card" aria-expanded="false" aria-label="Open note 6">
+          <span class="face face-front"><span class="seal">19</span><span class="open-me">Tap to open</span></span>
+          <span class="face face-back">Wherever the road takes you, I'm in your corner. Always.</span>
+        </button></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="letter-section" aria-label="A letter from Dad">
+    <div class="wrap">
+      <article class="letter">
+        <p class="eyebrow">A letter from Dad</p>
+        <div class="letter-body">
+          <p class="greeting">Nicholas,</p>
+          <p>Nineteen. I don't know how it went by so fast. It feels like yesterday you were small enough to carry, and now I get to watch you become your own man.</p>
+          <p>I'm proud of everything you've done, and even prouder of the person you're becoming. You have a good heart, a strong mind, and everything it takes to build the life you want.</p>
+          <p>This is a year of big choices, and some of them will feel heavy. Take your time, trust your gut, and remember that a decision doesn't have to be perfect to be the right one.</p>
+          <p>There will be days when things don't go your way. That's part of the road. Get back up, learn what you can, and keep moving forward. I've seen what you're made of, and I believe in you more than you know.</p>
+          <p>Whatever you chase, chase it with your whole heart. And no matter how far you go, you'll always have me.</p>
+          <p>Happy birthday, son. Enjoy every minute of today.</p>
+        </div>
+        <p class="signature">Love, Dad</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="finale">
+  <div class="wrap finale-inner">
+    <p class="finale-line">Happy 19th, Nicholas.</p>
+    <p class="finale-sub">Keep going. I'm proud of you.</p>
+    <div class="cake-scene" id="cake" role="img" aria-label="A birthday cake with candles shaped like the number 19">
+      <div class="candles">
+        <span class="candle" aria-hidden="true"><span class="wick"></span><span class="flame"></span><span class="smoke s1"></span><span class="smoke s2"></span><span class="smoke s3"></span>1</span>
+        <span class="candle" aria-hidden="true"><span class="wick"></span><span class="flame"></span><span class="smoke s1"></span><span class="smoke s2"></span><span class="smoke s3"></span>9</span>
+      </div>
+      <div class="cake" aria-hidden="true"></div>
+      <div class="plate" aria-hidden="true"></div>
+    </div>
+    <button type="button" id="wish" class="sign-button">Make a wish</button>
+    <p class="wish-note" id="wish-note" aria-live="polite"></p>
+  </div>
+</footer>
+
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function $(id) { return document.getElementById(id); }
+
+  /* ---------- Sign sheen ---------- */
+  var sign = $('sign');
+  function shine() {
+    sign.classList.remove('shine');
+    void sign.offsetWidth;
+    sign.classList.add('shine');
+  }
+  sign.addEventListener('pointerenter', shine);
+
+  /* ---------- Confetti ---------- */
+  var canvas = $('confetti');
+  var ctx = canvas.getContext('2d');
+  var pieces = [];
+  var raf = null;
+  function resize() {
+    var dpr = window.devicePixelRatio || 1;
+    canvas.width = Math.round(window.innerWidth * dpr);
+    canvas.height = Math.round(window.innerHeight * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+  function palette() {
+    var cs = getComputedStyle(document.documentElement);
+    return ['--sign', '--gold', '--confetti-3', '--confetti-4', '--car'].map(function (v) {
+      return cs.getPropertyValue(v).trim() || '#E2A11B';
+    });
+  }
+  function burst(count, x, y, upward) {
+    var cols = palette();
+    for (var i = 0; i < count; i++) {
+      var angle = upward
+        ? (-Math.PI / 2) + (Math.random() - 0.5) * (Math.PI * 0.75)
+        : Math.random() * Math.PI * 2;
+      var speed = upward ? 8 + Math.random() * 8 : 3 + Math.random() * 7;
+      pieces.push({
+        x: x, y: y,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - (upward ? 0 : 3),
+        w: 6 + Math.random() * 6,
+        h: 9 + Math.random() * 8,
+        r: Math.random() * Math.PI,
+        vr: (Math.random() - 0.5) * 0.3,
+        color: cols[i % cols.length],
+        life: 0,
+        max: 150 + Math.random() * 70
+      });
+    }
+    if (!raf) raf = requestAnimationFrame(tick);
+  }
+  function tick() {
+    var w = window.innerWidth, h = window.innerHeight;
+    ctx.clearRect(0, 0, w, h);
+    pieces = pieces.filter(function (p) { return p.life < p.max && p.y < h + 40; });
+    for (var i = 0; i < pieces.length; i++) {
+      var p = pieces[i];
+      p.life++;
+      p.vy += 0.2;
+      p.vx *= 0.985;
+      p.vy *= 0.985;
+      p.x += p.vx;
+      p.y += p.vy;
+      p.r += p.vr;
+      ctx.save();
+      ctx.globalAlpha = Math.min(1, (p.max - p.life) / 30);
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.r);
+      ctx.fillStyle = p.color;
+      var fh = p.h * Math.abs(Math.cos(p.life * 0.12 + p.r)) + 1;
+      ctx.fillRect(-p.w / 2, -fh / 2, p.w, fh);
+      ctx.restore();
+    }
+    if (pieces.length) {
+      raf = requestAnimationFrame(tick);
+    } else {
+      ctx.clearRect(0, 0, w, h);
+      raf = null;
+    }
+  }
+
+  /* ---------- Sound (only after a tap) ---------- */
+  var audio = null;
+  function ac() {
+    try {
+      if (!audio) {
+        var C = window.AudioContext || window.webkitAudioContext;
+        if (!C) return null;
+        audio = new C();
+      }
+      if (audio.state === 'suspended') audio.resume();
+      return audio;
+    } catch (e) { return null; }
+  }
+  function beep(a, t, dur) {
+    var g = a.createGain();
+    var f = a.createBiquadFilter();
+    f.type = 'lowpass';
+    f.frequency.value = 1800;
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(0.16, t + 0.02);
+    g.gain.setValueAtTime(0.16, t + dur - 0.04);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    [392, 494].forEach(function (hz) {
+      var o = a.createOscillator();
+      o.type = 'sawtooth';
+      o.frequency.value = hz;
+      o.connect(f);
+      o.start(t);
+      o.stop(t + dur + 0.02);
+    });
+    f.connect(g);
+    g.connect(a.destination);
+  }
+  function honkSound() {
+    var a = ac();
+    if (!a) return;
+    var t = a.currentTime + 0.01;
+    beep(a, t, 0.16);
+    beep(a, t + 0.22, 0.2);
+  }
+  function whoosh() {
+    var a = ac();
+    if (!a) return;
+    var t = a.currentTime + 0.01;
+    var len = Math.floor(a.sampleRate * 0.6);
+    var buf = a.createBuffer(1, len, a.sampleRate);
+    var d = buf.getChannelData(0);
+    for (var i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+    var src = a.createBufferSource();
+    src.buffer = buf;
+    var f = a.createBiquadFilter();
+    f.type = 'bandpass';
+    f.Q.value = 0.8;
+    f.frequency.setValueAtTime(1400, t);
+    f.frequency.exponentialRampToValueAtTime(300, t + 0.5);
+    var g = a.createGain();
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(0.35, t + 0.05);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.55);
+    src.connect(f);
+    f.connect(g);
+    g.connect(a.destination);
+    src.start(t);
+    src.stop(t + 0.6);
+  }
+  var melodyEnd = 0;
+  function playMelody() {
+    var a = ac();
+    if (!a || a.currentTime < melodyEnd) return;
+    var N = { G4: 392.0, A4: 440.0, B4: 493.88, C5: 523.25, D5: 587.33, E5: 659.25, F5: 698.46, G5: 783.99 };
+    var song = [
+      ['G4', .75], ['G4', .25], ['A4', 1], ['G4', 1], ['C5', 1], ['B4', 2],
+      ['G4', .75], ['G4', .25], ['A4', 1], ['G4', 1], ['D5', 1], ['C5', 2],
+      ['G4', .75], ['G4', .25], ['G5', 1], ['E5', 1], ['C5', 1], ['B4', 1], ['A4', 2],
+      ['F5', .75], ['F5', .25], ['E5', 1], ['C5', 1], ['D5', 1], ['C5', 2.5]
+    ];
+    var beat = 0.36;
+    var t = a.currentTime + 0.05;
+    song.forEach(function (n) {
+      var dur = n[1] * beat;
+      var o = a.createOscillator();
+      var g = a.createGain();
+      o.type = 'triangle';
+      o.frequency.value = N[n[0]];
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.14, t + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.07, t + Math.min(dur, 0.25));
+      g.gain.exponentialRampToValueAtTime(0.0001, t + dur * 0.95);
+      o.connect(g);
+      g.connect(a.destination);
+      o.start(t);
+      o.stop(t + dur);
+      t += dur;
+    });
+    melodyEnd = t;
+  }
+
+  /* ---------- The car ---------- */
+  var car = $('car');
+  var carBody = $('car-body');
+  var bubble = $('bubble');
+  var hint = $('car-hint');
+  var bubbleTimer = null;
+  var honked = false;
+  function say(text, ms) {
+    bubble.textContent = text;
+    car.classList.add('talking');
+    clearTimeout(bubbleTimer);
+    bubbleTimer = setTimeout(function () { car.classList.remove('talking'); }, ms);
+  }
+  function arrived() {
+    say('Happy birthday!', 1800);
+    setTimeout(function () { if (!honked) hint.classList.add('show'); }, 2000);
+  }
+  if (reduce) {
+    hint.classList.add('show');
+  } else {
+    car.addEventListener('animationend', function (e) {
+      if (e.target === car && e.animationName === 'drive-in') arrived();
+    });
+  }
+  carBody.addEventListener('animationend', function (e) {
+    if (e.animationName === 'hop') carBody.classList.remove('hop');
+  });
+  car.addEventListener('click', function () {
+    honkSound();
+    honked = true;
+    hint.classList.remove('show');
+    say('BEEP BEEP!', 900);
+    if (!reduce) {
+      carBody.classList.remove('hop');
+      void carBody.offsetWidth;
+      carBody.classList.add('hop');
+    }
+  });
+
+  /* ---------- Folded notes ---------- */
+  var cards = document.querySelectorAll('.note-card');
+  var countEl = $('notes-count');
+  var opened = 0;
+  Array.prototype.forEach.call(cards, function (btn, i) {
+    btn.addEventListener('click', function () {
+      var li = btn.parentElement;
+      if (li.classList.contains('open')) return;
+      li.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+      btn.setAttribute('aria-label', 'Note ' + (i + 1));
+      opened++;
+      countEl.textContent = opened === cards.length
+        ? 'All ' + cards.length + ' opened'
+        : opened + ' of ' + cards.length + ' opened';
+      if (opened === cards.length) {
+        setTimeout(function () {
+          var r = btn.getBoundingClientRect();
+          burst(reduce ? 40 : 140, r.left + r.width / 2, r.top + r.height / 2, false);
+        }, reduce ? 0 : 650);
+      }
+    });
+  });
+
+  /* ---------- Make a wish ---------- */
+  var cake = $('cake');
+  var wishBtn = $('wish');
+  var wishNote = $('wish-note');
+  wishBtn.addEventListener('click', function () {
+    if (!cake.classList.contains('out')) {
+      cake.classList.add('out');
+      wishBtn.textContent = 'Light the candles again';
+      whoosh();
+      setTimeout(function () {
+        var r = cake.getBoundingClientRect();
+        burst(reduce ? 50 : 180, r.left + r.width / 2, r.top + 60, true);
+        wishNote.textContent = "Wish made. Here's to 19!";
+        playMelody();
+      }, reduce ? 0 : 450);
+    } else {
+      cake.classList.remove('out');
+      wishBtn.textContent = 'Make a wish';
+      wishNote.textContent = '';
+    }
+  });
+
+  /* ---------- Welcome confetti ---------- */
+  if (!reduce) {
+    setTimeout(function () {
+      var r = sign.getBoundingClientRect();
+      if (r.bottom > 0) burst(130, r.left + r.width / 2, r.top + r.height * 0.35, false);
+    }, 700);
+  }
+})();
+</script>
+
+</body>
+</html>
